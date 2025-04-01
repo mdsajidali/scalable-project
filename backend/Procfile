@@ -1,0 +1,2 @@
+web: gunicorn dietplanner.wsgi:application
+worker: celery -A dietplanner worker --loglevel=info

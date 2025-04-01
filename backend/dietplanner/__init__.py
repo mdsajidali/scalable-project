@@ -1,0 +1,1 @@
+# Simplified initialization without Celery
