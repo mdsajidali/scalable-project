@@ -1,0 +1,427 @@
+Retrieving logs...
+============= i-08e3752ad109186e9 ==============
+----------------------------------------
+/var/log/nginx/access.log
+----------------------------------------
+172.31.39.176 - - [02/Apr/2025:18:53:38 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:53:43 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:53:53 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:53:58 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:54:08 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:54:13 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:54:23 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:54:28 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:54:38 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:54:43 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:54:53 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:54:58 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:55:08 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:55:13 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:55:23 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:55:28 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:55:38 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:55:43 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:55:53 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:55:58 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:56:08 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:56:13 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:56:23 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:56:28 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:56:38 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:56:43 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:56:53 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:56:58 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:57:08 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:57:13 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:57:23 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:57:28 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:57:38 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:57:43 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:57:53 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:57:58 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:58:08 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:58:13 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:58:23 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:58:28 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:58:38 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:58:43 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:58:53 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:58:58 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:59:08 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:59:13 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:59:23 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:59:28 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:59:38 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:59:43 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:18:59:53 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:18:59:58 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:00:08 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:00:13 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:00:23 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:00:28 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:00:38 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:00:43 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:00:53 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:00:58 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:01:08 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:01:13 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:01:23 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:01:28 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:01:38 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:01:43 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:01:53 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:01:58 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:02:08 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:02:13 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:02:19 +0000] "GET / HTTP/1.1" 200 123 "-" "curl/7.88.1" "116.118.161.14"
+172.31.39.176 - - [02/Apr/2025:19:02:23 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:02:28 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:02:38 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:02:40 +0000] "POST /api/users/logout/ HTTP/1.1" 204 0 "http://ai-diet-planner-x23293519.s3-website-eu-west-1.amazonaws.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" "93.107.16.61"
+172.31.11.241 - - [02/Apr/2025:19:02:43 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:02:53 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:02:58 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:03:09 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:03:14 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:03:23 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:03:29 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:03:38 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:03:44 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:03:53 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:03:59 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:04:01 +0000] "POST /api/users/register/ HTTP/1.1" 201 107 "http://ai-diet-planner-x23293519.s3-website-eu-west-1.amazonaws.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" "93.107.16.61"
+172.31.39.176 - - [02/Apr/2025:19:04:01 +0000] "GET /api/users/profile/ HTTP/1.1" 200 258 "http://ai-diet-planner-x23293519.s3-website-eu-west-1.amazonaws.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" "93.107.16.61"
+172.31.39.176 - - [02/Apr/2025:19:04:01 +0000] "GET /api/meal-plans/ HTTP/1.1" 200 2 "http://ai-diet-planner-x23293519.s3-website-eu-west-1.amazonaws.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" "93.107.16.61"
+172.31.39.176 - - [02/Apr/2025:19:04:01 +0000] "GET /api/meal-plans/latest/ HTTP/1.1" 404 47 "http://ai-diet-planner-x23293519.s3-website-eu-west-1.amazonaws.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" "93.107.16.61"
+172.31.39.176 - - [02/Apr/2025:19:04:07 +0000] "POST /api/meal-plans/generate/ HTTP/1.1" 201 239 "http://ai-diet-planner-x23293519.s3-website-eu-west-1.amazonaws.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" "93.107.16.61"
+172.31.39.176 - - [02/Apr/2025:19:04:08 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:04:10 +0000] "GET /api/meal-plans/latest/ HTTP/1.1" 200 1298 "http://ai-diet-planner-x23293519.s3-website-eu-west-1.amazonaws.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" "93.107.16.61"
+172.31.11.241 - - [02/Apr/2025:19:04:14 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:04:23 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:04:29 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:04:38 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:04:44 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.39.176 - - [02/Apr/2025:19:04:53 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+172.31.11.241 - - [02/Apr/2025:19:04:59 +0000] "GET / HTTP/1.1" 200 123 "-" "ELB-HealthChecker/2.0" "-"
+
+
+----------------------------------------
+/var/log/nginx/error.log
+----------------------------------------
+2025/04/02 01:54:33 [error] 458431#458431: *477 open() "/var/app/current/static/rest_framework/js/prettify-min.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/latest/?"
+2025/04/02 01:54:33 [error] 458430#458430: *463 open() "/var/app/current/static/rest_framework/js/default.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/default.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/latest/?"
+2025/04/02 01:54:33 [error] 458431#458431: *477 open() "/var/app/current/static/rest_framework/js/load-ajax-form.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/latest/?"
+2025/04/02 01:54:36 [error] 458431#458431: *477 open() "/var/app/current/static/rest_framework/css/bootstrap.min.css" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 01:54:36 [error] 458431#458431: *477 open() "/var/app/current/static/rest_framework/css/prettify.css" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/css/prettify.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 01:54:36 [error] 458430#458430: *463 open() "/var/app/current/static/rest_framework/css/bootstrap-tweaks.css" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 01:54:36 [error] 458431#458431: *477 open() "/var/app/current/static/rest_framework/js/jquery-3.7.1.min.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 01:54:36 [error] 458430#458430: *463 open() "/var/app/current/static/rest_framework/css/default.css" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/css/default.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 01:54:36 [error] 458430#458430: *458 open() "/var/app/current/static/rest_framework/js/ajax-form.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 01:54:36 [error] 458431#458431: *477 open() "/var/app/current/static/rest_framework/js/csrf.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/csrf.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 01:54:36 [error] 458430#458430: *463 open() "/var/app/current/static/rest_framework/js/bootstrap.min.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 01:54:36 [error] 458430#458430: *463 open() "/var/app/current/static/rest_framework/js/default.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/default.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 01:54:36 [error] 458431#458431: *477 open() "/var/app/current/static/rest_framework/js/prettify-min.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 01:54:36 [error] 458431#458431: *477 open() "/var/app/current/static/rest_framework/js/load-ajax-form.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 01:54:39 [error] 458431#458431: *477 open() "/var/app/current/static/rest_framework/css/bootstrap.min.css" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 01:54:39 [error] 458431#458431: *477 open() "/var/app/current/static/rest_framework/css/prettify.css" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/css/prettify.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 01:54:39 [error] 458430#458430: *463 open() "/var/app/current/static/rest_framework/css/bootstrap-tweaks.css" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 01:54:39 [error] 458431#458431: *477 open() "/var/app/current/static/rest_framework/css/default.css" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/css/default.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 01:54:39 [error] 458430#458430: *463 open() "/var/app/current/static/rest_framework/js/jquery-3.7.1.min.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 01:54:39 [error] 458431#458431: *477 open() "/var/app/current/static/rest_framework/js/ajax-form.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 01:54:39 [error] 458431#458431: *477 open() "/var/app/current/static/rest_framework/js/csrf.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/csrf.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 01:54:39 [error] 458430#458430: *463 open() "/var/app/current/static/rest_framework/js/bootstrap.min.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 01:54:39 [error] 458431#458431: *477 open() "/var/app/current/static/rest_framework/js/prettify-min.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 01:54:39 [error] 458431#458431: *477 open() "/var/app/current/static/rest_framework/js/default.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/default.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 01:54:39 [error] 458430#458430: *463 open() "/var/app/current/static/rest_framework/js/load-ajax-form.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 02:21:54 [error] 458430#458430: *964 open() "/var/app/current/static/rest_framework/css/bootstrap.min.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:21:54 [error] 458430#458430: *964 open() "/var/app/current/static/rest_framework/css/bootstrap-tweaks.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:21:54 [error] 458430#458430: *964 open() "/var/app/current/static/rest_framework/css/prettify.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/prettify.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:21:54 [error] 458430#458430: *964 open() "/var/app/current/static/rest_framework/js/csrf.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/csrf.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:21:54 [error] 458430#458430: *958 open() "/var/app/current/static/rest_framework/js/ajax-form.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:21:54 [error] 458430#458430: *966 open() "/var/app/current/static/rest_framework/js/bootstrap.min.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:21:54 [error] 458431#458431: *968 open() "/var/app/current/static/rest_framework/js/jquery-3.7.1.min.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:21:54 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/css/default.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/default.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:21:54 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/js/prettify-min.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:21:54 [error] 458430#458430: *966 open() "/var/app/current/static/rest_framework/js/load-ajax-form.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:21:54 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/js/default.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/default.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:11 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/css/bootstrap.min.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:11 [error] 458430#458430: *966 open() "/var/app/current/static/rest_framework/css/bootstrap-tweaks.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:11 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/js/jquery-3.7.1.min.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:11 [error] 458431#458431: *968 open() "/var/app/current/static/rest_framework/css/prettify.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/prettify.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:11 [error] 458430#458430: *964 open() "/var/app/current/static/rest_framework/css/default.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/default.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:11 [error] 458430#458430: *974 open() "/var/app/current/static/rest_framework/js/ajax-form.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:11 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/js/csrf.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/csrf.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:11 [error] 458430#458430: *966 open() "/var/app/current/static/rest_framework/js/bootstrap.min.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:11 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/js/prettify-min.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:11 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/js/default.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/default.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:11 [error] 458431#458431: *968 open() "/var/app/current/static/rest_framework/js/load-ajax-form.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:12 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/css/bootstrap.min.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:12 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/css/bootstrap-tweaks.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:12 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/css/prettify.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/prettify.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:12 [error] 458431#458431: *968 open() "/var/app/current/static/rest_framework/js/ajax-form.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:12 [error] 458430#458430: *966 open() "/var/app/current/static/rest_framework/css/default.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/default.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:12 [error] 458430#458430: *974 open() "/var/app/current/static/rest_framework/js/jquery-3.7.1.min.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:12 [error] 458431#458431: *968 open() "/var/app/current/static/rest_framework/js/bootstrap.min.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:12 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/js/csrf.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/csrf.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:12 [error] 458431#458431: *968 open() "/var/app/current/static/rest_framework/js/default.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/default.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:12 [error] 458430#458430: *966 open() "/var/app/current/static/rest_framework/js/load-ajax-form.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:12 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/js/prettify-min.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/login/"
+2025/04/02 02:22:13 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/css/bootstrap.min.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 02:22:13 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/css/bootstrap-tweaks.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 02:22:13 [error] 458430#458430: *966 open() "/var/app/current/static/rest_framework/css/prettify.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/prettify.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 02:22:13 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/js/jquery-3.7.1.min.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 02:22:13 [error] 458431#458431: *968 open() "/var/app/current/static/rest_framework/css/default.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/default.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 02:22:13 [error] 458430#458430: *974 open() "/var/app/current/static/rest_framework/js/ajax-form.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 02:22:13 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/js/csrf.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/csrf.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 02:22:13 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/js/bootstrap.min.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 02:22:13 [error] 458430#458430: *966 open() "/var/app/current/static/rest_framework/js/prettify-min.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 02:22:13 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/js/load-ajax-form.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 02:22:13 [error] 458431#458431: *968 open() "/var/app/current/static/rest_framework/js/default.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/default.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/"
+2025/04/02 02:22:16 [error] 458430#458430: *966 open() "/var/app/current/static/rest_framework/css/prettify.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/prettify.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 02:22:16 [error] 458431#458431: *968 open() "/var/app/current/static/rest_framework/css/bootstrap-tweaks.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 02:22:16 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/css/bootstrap.min.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 02:22:16 [error] 458430#458430: *964 open() "/var/app/current/static/rest_framework/js/jquery-3.7.1.min.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 02:22:16 [error] 458430#458430: *974 open() "/var/app/current/static/rest_framework/css/default.css" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/css/default.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 02:22:16 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/js/ajax-form.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 02:22:16 [error] 458430#458430: *966 open() "/var/app/current/static/rest_framework/js/bootstrap.min.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 02:22:16 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/js/csrf.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/csrf.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 02:22:16 [error] 458430#458430: *967 open() "/var/app/current/static/rest_framework/js/default.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/default.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 02:22:16 [error] 458431#458431: *968 open() "/var/app/current/static/rest_framework/js/prettify-min.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 02:22:16 [error] 458430#458430: *974 open() "/var/app/current/static/rest_framework/js/load-ajax-form.js" failed (2: No such file or directory), client: 172.31.39.176, server: , request: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/meal-plans/"
+2025/04/02 02:22:56 [error] 458430#458430: *989 open() "/var/app/current/static/rest_framework/css/bootstrap.min.css" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/register/"
+2025/04/02 02:22:56 [error] 458431#458431: *994 open() "/var/app/current/static/rest_framework/css/bootstrap-tweaks.css" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/register/"
+2025/04/02 02:22:56 [error] 458430#458430: *989 open() "/var/app/current/static/rest_framework/css/prettify.css" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/css/prettify.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/register/"
+2025/04/02 02:22:56 [error] 458431#458431: *994 open() "/var/app/current/static/rest_framework/css/default.css" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/css/default.css HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/register/"
+2025/04/02 02:22:56 [error] 458431#458431: *994 open() "/var/app/current/static/rest_framework/js/jquery-3.7.1.min.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/register/"
+2025/04/02 02:22:56 [error] 458430#458430: *989 open() "/var/app/current/static/rest_framework/js/ajax-form.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/register/"
+2025/04/02 02:22:56 [error] 458430#458430: *989 open() "/var/app/current/static/rest_framework/js/csrf.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/csrf.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/register/"
+2025/04/02 02:22:56 [error] 458431#458431: *994 open() "/var/app/current/static/rest_framework/js/bootstrap.min.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/register/"
+2025/04/02 02:22:56 [error] 458430#458430: *989 open() "/var/app/current/static/rest_framework/js/prettify-min.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/prettify-min.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/register/"
+2025/04/02 02:22:56 [error] 458431#458431: *994 open() "/var/app/current/static/rest_framework/js/default.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/default.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/register/"
+2025/04/02 02:22:56 [error] 458431#458431: *994 open() "/var/app/current/static/rest_framework/js/load-ajax-form.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1", host: "diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com", referrer: "http://diet-planner.eba-npsheumz.eu-west-1.elasticbeanstalk.com/api/users/register/"
+2025/04/02 17:40:26 [error] 458431#458431: *16213 open() "/var/app/current/static/js/main.141b0494.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/js/main.141b0494.js HTTP/1.1", host: "52.17.83.3"
+2025/04/02 17:40:26 [error] 458431#458431: *16213 open() "/var/app/current/static/js/2.ca066a4b.chunk.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/js/2.ca066a4b.chunk.js HTTP/1.1", host: "52.17.83.3"
+2025/04/02 17:40:38 [error] 458431#458431: *16213 open() "/var/app/current/static/js/main.e85f7a37.js" failed (2: No such file or directory), client: 172.31.11.241, server: , request: "GET /static/js/main.e85f7a37.js HTTP/1.1", host: "52.17.83.3"
+2025/04/02 18:50:39 [warn] 498473#498473: could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64; ignoring types_hash_bucket_size
+2025/04/02 18:50:40 [warn] 498506#498506: could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64; ignoring types_hash_bucket_size
+2025/04/02 18:50:40 [warn] 498507#498507: could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64; ignoring types_hash_bucket_size
+2025/04/02 19:03:07 [warn] 499727#499727: could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64; ignoring types_hash_bucket_size
+2025/04/02 19:03:08 [warn] 499760#499760: could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64; ignoring types_hash_bucket_size
+2025/04/02 19:03:08 [warn] 499761#499761: could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64; ignoring types_hash_bucket_size
+
+
+----------------------------------------
+/var/log/web.stdout.log
+----------------------------------------
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:02 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:03 ip-172-31-7-151 web[498388]: Unauthorized: /api/users/logout/
+Apr  2 18:52:34 ip-172-31-7-151 web[498388]: Not Found: /api/meal-plans/latest/
+Apr  2 18:52:42 ip-172-31-7-151 web[498388]: No fitness_api_id provided for user 5
+Apr  2 18:52:42 ip-172-31-7-151 web[498388]: AWS Lambda error: An error occurred (AccessDeniedException) when calling the Invoke operation: User: arn:aws:sts::250738637992:assumed-role/aws-elasticbeanstalk-ec2-role/i-08e3752ad109186e9 is not authorized to perform: lambda:InvokeFunction on resource: arn:aws:lambda:eu-west-1:250738637992:function:x23293519_fitness_meal because no identity-based policy allows the lambda:InvokeFunction action
+Apr  2 18:53:34 ip-172-31-7-151 web[498388]: No fitness_api_id provided for user 5
+Apr  2 18:53:34 ip-172-31-7-151 web[498388]: AWS Lambda error: An error occurred (AccessDeniedException) when calling the Invoke operation: User: arn:aws:sts::250738637992:assumed-role/aws-elasticbeanstalk-ec2-role/i-08e3752ad109186e9 is not authorized to perform: lambda:InvokeFunction on resource: arn:aws:lambda:eu-west-1:250738637992:function:x23293519_fitness_meal because no identity-based policy allows the lambda:InvokeFunction action
+Apr  2 19:03:03 ip-172-31-7-151 web[498382]: [2025-04-02 19:03:03 +0000] [498382] [INFO] Handling signal: term
+Apr  2 19:03:03 ip-172-31-7-151 web[498388]: [2025-04-02 19:03:03 +0000] [498388] [INFO] Worker exiting (pid: 498388)
+Apr  2 19:03:03 ip-172-31-7-151 web[498382]: [2025-04-02 19:03:03 +0000] [498382] [INFO] Shutting down: Master
+Apr  2 19:03:06 ip-172-31-7-151 web[499635]: [2025-04-02 19:03:06 +0000] [499635] [INFO] Starting gunicorn 23.0.0
+Apr  2 19:03:06 ip-172-31-7-151 web[499635]: [2025-04-02 19:03:06 +0000] [499635] [INFO] Listening at: http://127.0.0.1:8000 (499635)
+Apr  2 19:03:06 ip-172-31-7-151 web[499635]: [2025-04-02 19:03:06 +0000] [499635] [INFO] Using worker: sync
+Apr  2 19:03:06 ip-172-31-7-151 web[499641]: [2025-04-02 19:03:06 +0000] [499641] [INFO] Booting worker with pid: 499641
+Apr  2 19:04:01 ip-172-31-7-151 web[499641]: Not Found: /api/meal-plans/latest/
+Apr  2 19:04:07 ip-172-31-7-151 web[499641]: No fitness_api_id provided for user 5
+Apr  2 19:04:07 ip-172-31-7-151 web[499641]: AWS Lambda error: An error occurred (AccessDeniedException) when calling the Invoke operation: User: arn:aws:sts::250738637992:assumed-role/aws-elasticbeanstalk-ec2-role/i-08e3752ad109186e9 is not authorized to perform: lambda:InvokeFunction on resource: arn:aws:lambda:eu-west-1:250738637992:function:x23293519_fitness_meal because no identity-based policy allows the lambda:InvokeFunction action
+
+
+----------------------------------------
+/var/log/eb-engine.log
+----------------------------------------
+
+2025/04/02 19:03:03.477311 [INFO] Running command: systemctl daemon-reload
+2025/04/02 19:03:03.850107 [INFO] Running command: systemctl reset-failed
+2025/04/02 19:03:03.859033 [INFO] deregistering process: web
+2025/04/02 19:03:03.859068 [INFO] Running command: systemctl show -p PartOf web.service
+2025/04/02 19:03:03.869461 [INFO] Running command: systemctl is-active web.service
+2025/04/02 19:03:03.878473 [INFO] Running command: systemctl disable web.service
+2025/04/02 19:03:04.180377 [INFO] Removed "/etc/systemd/system/multi-user.target.wants/web.service".
+
+2025/04/02 19:03:04.180461 [INFO] Running command: systemctl daemon-reload
+2025/04/02 19:03:04.491481 [INFO] Running command: systemctl reset-failed
+2025/04/02 19:03:04.500208 [INFO] Running command: systemctl is-active worker.service
+2025/04/02 19:03:04.508255 [INFO] Process worker has been fully terminated
+2025/04/02 19:03:04.508286 [INFO] Running command: systemctl is-active web.service
+2025/04/02 19:03:04.516196 [INFO] Process web has been fully terminated
+2025/04/02 19:03:04.516220 [INFO] All processes have been fully terminated
+2025/04/02 19:03:04.516225 [INFO] Removing /var/app/current/ if it exists
+2025/04/02 19:03:04.964655 [INFO] Renaming /var/app/staging/ to /var/app/current/
+2025/04/02 19:03:04.964689 [INFO] Register application processes...
+2025/04/02 19:03:04.964694 [INFO] Registering the proc: web
+
+2025/04/02 19:03:04.964705 [INFO] Running command: systemctl show -p PartOf web.service
+2025/04/02 19:03:05.009849 [INFO] Running command: systemctl daemon-reload
+2025/04/02 19:03:05.306658 [INFO] Running command: systemctl reset-failed
+2025/04/02 19:03:05.318241 [INFO] Running command: systemctl is-enabled eb-app.target
+2025/04/02 19:03:05.327478 [INFO] Running command: systemctl enable eb-app.target
+2025/04/02 19:03:05.583721 [INFO] Running command: systemctl start eb-app.target
+2025/04/02 19:03:05.598711 [INFO] Running command: systemctl enable web.service
+2025/04/02 19:03:05.974365 [INFO] Created symlink /etc/systemd/system/multi-user.target.wants/web.service → /etc/systemd/system/web.service.
+
+2025/04/02 19:03:05.974398 [INFO] Running command: systemctl show -p PartOf web.service
+2025/04/02 19:03:05.987970 [INFO] Running command: systemctl is-active web.service
+2025/04/02 19:03:06.005579 [INFO] Running command: systemctl start web.service
+2025/04/02 19:03:06.084855 [INFO] Registering the proc: worker
+
+2025/04/02 19:03:06.084897 [INFO] Running command: systemctl show -p PartOf worker.service
+2025/04/02 19:03:06.102746 [INFO] Running command: systemctl daemon-reload
+2025/04/02 19:03:06.641524 [INFO] Running command: systemctl reset-failed
+2025/04/02 19:03:06.654855 [INFO] Running command: systemctl is-enabled eb-app.target
+2025/04/02 19:03:06.666283 [INFO] Running command: systemctl enable eb-app.target
+2025/04/02 19:03:07.056236 [INFO] Running command: systemctl start eb-app.target
+2025/04/02 19:03:07.069947 [INFO] Running command: systemctl enable worker.service
+2025/04/02 19:03:07.418798 [INFO] Created symlink /etc/systemd/system/multi-user.target.wants/worker.service → /etc/systemd/system/worker.service.
+
+2025/04/02 19:03:07.418832 [INFO] Running command: systemctl show -p PartOf worker.service
+2025/04/02 19:03:07.430465 [INFO] Running command: systemctl is-active worker.service
+2025/04/02 19:03:07.438137 [INFO] Running command: systemctl start worker.service
+2025/04/02 19:03:07.503774 [INFO] Executing instruction: start X-Ray
+2025/04/02 19:03:07.503794 [INFO] X-Ray is not enabled.
+2025/04/02 19:03:07.503799 [INFO] Executing instruction: start proxy with new configuration
+2025/04/02 19:03:07.503846 [INFO] Running command: /usr/sbin/nginx -t -c /var/proxy/staging/nginx/nginx.conf
+2025/04/02 19:03:07.538085 [INFO] nginx: [warn] could not build optimal types_hash, you should increase either types_hash_max_size: 1024 or types_hash_bucket_size: 64; ignoring types_hash_bucket_size
+nginx: the configuration file /var/proxy/staging/nginx/nginx.conf syntax is ok
+nginx: configuration file /var/proxy/staging/nginx/nginx.conf test is successful
+
+2025/04/02 19:03:07.538667 [INFO] Running command: cp -rp /var/proxy/staging/nginx/* /etc/nginx
+2025/04/02 19:03:07.544870 [INFO] Running command: systemctl show -p PartOf nginx.service
+2025/04/02 19:03:07.568923 [INFO] Running command: systemctl daemon-reload
+2025/04/02 19:03:07.966671 [INFO] Running command: systemctl reset-failed
+2025/04/02 19:03:07.981358 [INFO] Running command: systemctl show -p PartOf nginx.service
+2025/04/02 19:03:08.011009 [INFO] Running command: systemctl is-active nginx.service
+2025/04/02 19:03:08.023205 [INFO] Running command: systemctl start nginx.service
+2025/04/02 19:03:08.179885 [INFO] Executing instruction: configureSqsd
+2025/04/02 19:03:08.179911 [INFO] This is a web server environment instance, skip configure sqsd daemon ...
+2025/04/02 19:03:08.179915 [INFO] Executing instruction: startSqsd
+2025/04/02 19:03:08.179918 [INFO] This is a web server environment instance, skip start sqsd daemon ...
+2025/04/02 19:03:08.179921 [INFO] Executing instruction: Track pids in healthd
+2025/04/02 19:03:08.179925 [INFO] This is an enhanced health env...
+2025/04/02 19:03:08.179937 [INFO] Running command: systemctl show -p ConsistsOf aws-eb.target | cut -d= -f2
+2025/04/02 19:03:08.196718 [INFO] healthd.service cfn-hup.service nginx.service
+
+2025/04/02 19:03:08.196757 [INFO] Running command: systemctl show -p ConsistsOf eb-app.target | cut -d= -f2
+2025/04/02 19:03:08.214248 [INFO] worker.service web.service
+
+2025/04/02 19:03:08.214635 [INFO] Executing instruction: RunAppDeployPostDeployHooks
+2025/04/02 19:03:08.214657 [INFO] Executing platform hooks in .platform/hooks/postdeploy/
+2025/04/02 19:03:08.214675 [INFO] The dir .platform/hooks/postdeploy/ does not exist
+2025/04/02 19:03:08.214679 [INFO] Finished running scripts in /var/app/current/.platform/hooks/postdeploy
+2025/04/02 19:03:08.214685 [INFO] Executing cleanup logic
+2025/04/02 19:03:08.214848 [INFO] CommandService Response: {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"Engine execution has succeeded.","returncode":0,"events":[{"msg":"Instance deployment used the commands in your 'Procfile' to initiate startup of your application.","timestamp":1743620575341,"severity":"INFO"},{"msg":"Instance deployment completed successfully.","timestamp":1743620588214,"severity":"INFO"}]}]}
+
+2025/04/02 19:03:08.215028 [INFO] Platform Engine finished execution on command: app-deploy
+
+2025/04/02 19:05:01.541642 [INFO] Starting...
+2025/04/02 19:05:01.541698 [INFO] Starting EBPlatform-PlatformEngine
+2025/04/02 19:05:01.541720 [INFO] reading event message file
+2025/04/02 19:05:01.541888 [INFO] Engine received EB command cfn-hup-exec
+
+2025/04/02 19:05:01.665052 [INFO] Running command: /opt/aws/bin/cfn-get-metadata -s arn:aws:cloudformation:eu-west-1:250738637992:stack/awseb-e-9s4pm2k23p-stack/0a57f870-0926-11f0-bdd4-06c22f14153f -r AWSEBAutoScalingGroup --region eu-west-1
+2025/04/02 19:05:02.210328 [INFO] Running command: /opt/aws/bin/cfn-get-metadata -s arn:aws:cloudformation:eu-west-1:250738637992:stack/awseb-e-9s4pm2k23p-stack/0a57f870-0926-11f0-bdd4-06c22f14153f -r AWSEBBeanstalkMetadata --region eu-west-1
+2025/04/02 19:05:02.626798 [INFO] checking whether command tail-log is applicable to this instance...
+2025/04/02 19:05:02.626812 [INFO] this command is applicable to the instance, thus instance should execute command
+2025/04/02 19:05:02.626815 [INFO] Engine command: (tail-log)
+
+2025/04/02 19:05:02.626869 [INFO] Executing instruction: GetTailLogs
+2025/04/02 19:05:02.626873 [INFO] Tail Logs...
+2025/04/02 19:05:02.628562 [INFO] Running command: tail -n 100 /var/log/nginx/access.log
+2025/04/02 19:05:02.633658 [INFO] Running command: tail -n 100 /var/log/nginx/error.log
+2025/04/02 19:05:02.640941 [INFO] Running command: tail -n 100 /var/log/web.stdout.log
+2025/04/02 19:05:02.645599 [INFO] Running command: tail -n 100 /var/log/eb-engine.log
+
+
+----------------------------------------
+/var/log/eb-hooks.log
+----------------------------------------
+
+

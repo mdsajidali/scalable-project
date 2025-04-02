@@ -6,10 +6,10 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-# Regular function instead of Celery task
+# Regular function (Celery is optional to use)
 def generate_meal_plan_task(user_id, location, manual_fitness_data=None):
     """
-    Synchronous version of meal plan generation (no Celery)
+    Synchronous version of meal plan generation
     """
     from django.contrib.auth.models import User
     from .services import get_weather_data, get_fitness_data, generate_meal_plan

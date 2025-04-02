@@ -141,7 +141,7 @@ REST_FRAMEWORK = {
 # CORS settings
 CORS_ALLOW_ALL_ORIGINS = True  # Set to False for production
 CORS_ALLOWED_ORIGINS = [
-    # This will be your S3 bucket website URL
+    # This S3 bucket website URL
     "https://ai-diet-planner-x23293519.s3.eu-west-1.amazonaws.com" 
 ]
 
@@ -150,7 +150,7 @@ CELERY_BROKER_URL = os.environ.get('CELERY_BROKER', 'memory://')
 CELERY_RESULT_BACKEND = os.environ.get('CELERY_BACKEND', 'cache')
 CELERY_CACHE_BACKEND = 'memory'
 # Celery settings
-CELERY_BROKER_URL = 'redis://localhost:6379/0'  # Update to your broker URL if using a different service
+CELERY_BROKER_URL = 'redis://localhost:6379/0' 
 CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
 
 # AWS settings
@@ -160,7 +160,7 @@ AWS_LAMBDA_FUNCTION_NAME = os.environ.get('AWS_LAMBDA_FUNCTION_NAME', 'x23293519
 
 # API Keys
 WEATHER_API_KEY = os.environ.get('WEATHER_API_KEY', '')
-FITNESS_API_URL = os.environ.get('FITNESS_API_URL', 'https://your-classmates-fitness-api.com/api')
+FITNESS_API_URL = os.environ.get('FITNESS_API_URL', 'https://l734p4kw4i.execute-api.eu-west-1.amazonaws.com/Prod')
 FITNESS_API_KEY = os.environ.get('FITNESS_API_KEY', '')
 
 # static files

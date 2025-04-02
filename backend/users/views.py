@@ -10,7 +10,7 @@ from django.http import HttpResponse
 from django.views import View
 from django.http import JsonResponse
 # from .forms import UserRegistrationForm
-from rest_framework.views import APIView  # Import DRF's APIView
+from rest_framework.views import APIView 
 
 
 class UserRegistrationView(APIView):

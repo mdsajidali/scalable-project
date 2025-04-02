@@ -3,7 +3,7 @@ from rest_framework.routers import DefaultRouter
 from .views import MealPlanViewSet, MealAPIView, PublicMealPlanAPI
 from . import views
 
-# Create a router and register our viewsets
+# router and register our viewsets
 router = DefaultRouter()
 router.register(r'meal-plans', MealPlanViewSet, basename='meal-plan')
 
