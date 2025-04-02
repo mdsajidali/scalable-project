@@ -91,7 +91,7 @@ def generate_meal(meal_type, calories, protein_ratio, dietary_preference, meal_n
     carb_grams = (meal_calories * carb_ratio) / 4  # 4 calories per gram of carb
     fat_grams = (meal_calories * fat_ratio) / 9  # 9 calories per gram of fat
     
-    # Meal database (simplified for this example)
+    # Meal database
     meal_options = {
         'omnivore': {
             'breakfast': [

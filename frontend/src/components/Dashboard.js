@@ -13,6 +13,13 @@ const Dashboard = () => {
   const [location, setLocation] = useState('');
   const [generating, setGenerating] = useState(false);
   const [generationMessage, setGenerationMessage] = useState('');
+  const [warnings, setWarnings] = useState([]);
+  const [showManualEntry, setShowManualEntry] = useState(false);
+  const [manualFitnessData, setManualFitnessData] = useState({
+    calories_burned: 2000,
+    steps: 5000,
+    active_minutes: 30
+  });
   
   // Fetch meal plans on component mount
   useEffect(() => {
@@ -35,6 +42,14 @@ const Dashboard = () => {
     fetchMealPlans();
   }, []);
   
+  const handleManualFitnessChange = (e) => {
+    const { name, value } = e.target;
+    setManualFitnessData({
+      ...manualFitnessData,
+      [name]: parseInt(value, 10) || 0
+    });
+  };
+  
   // Handle meal plan generation
   const handleGenerateMealPlan = async (e) => {
     e.preventDefault();
@@ -47,11 +62,24 @@ const Dashboard = () => {
     setGenerating(true);
     setGenerationMessage('Generating your personalized meal plan...');
     setError(null);
+    setWarnings([]);
     
     try {
-      const response = await axios.post(`${API_BASE_URL}/api/meal-plans/generate/`, {
+      // Include manual fitness data if the user has entered it
+      const requestData = {
         location
-      });
+      };
+      
+      if (showManualEntry) {
+        requestData.manual_fitness_data = manualFitnessData;
+      }
+      
+      const response = await axios.post(`${API_BASE_URL}/api/meal-plans/generate/`, requestData);
+      
+      // Check for warnings
+      if (response.data.warnings && response.data.warnings.length > 0) {
+        setWarnings(response.data.warnings);
+      }
       
       setGenerationMessage('Your meal plan is being generated! It will appear here shortly.');
       
@@ -88,6 +116,11 @@ const Dashboard = () => {
       setError('Failed to generate meal plan. Please try again later.');
       setGenerating(false);
       setGenerationMessage('');
+      
+      // Check for warnings in the error response
+      if (error.response && error.response.data && error.response.data.warnings) {
+        setWarnings(error.response.data.warnings);
+      }
     }
   };
   
@@ -107,6 +140,21 @@ const Dashboard = () => {
             <div className="card-body">
               <h5 className="card-title">Generate New Meal Plan</h5>
               {error && <div className="alert alert-danger">{error}</div>}
+              {warnings.length > 0 && (
+                <div className="alert alert-warning">
+                  {warnings.map((warning, index) => (
+                    <p key={index} className="mb-1">{warning}</p>
+                  ))}
+                  {warnings.some(w => w.includes("fitness data")) && (
+                    <button 
+                      className="btn btn-sm btn-outline-secondary mt-2" 
+                      onClick={() => setShowManualEntry(!showManualEntry)}
+                    >
+                      {showManualEntry ? 'Hide Manual Entry' : 'Enter Fitness Data Manually'}
+                    </button>
+                  )}
+                </div>
+              )}
               {generationMessage && <div className="alert alert-info">{generationMessage}</div>}
               <form onSubmit={handleGenerateMealPlan}>
                 <div className="mb-3">
@@ -122,6 +170,52 @@ const Dashboard = () => {
                   />
                   <div className="form-text">We'll use this to check local weather conditions</div>
                 </div>
+                
+                {/* Manual Fitness Data Entry */}
+                {showManualEntry && (
+                  <div className="manual-fitness-data mb-3">
+                    <h6 className="mb-2">Manual Fitness Data Entry</h6>
+                    <div className="row g-2">
+                      <div className="col-md-4">
+                        <label htmlFor="calories_burned" className="form-label">Calories Burned</label>
+                        <input
+                          type="number"
+                          className="form-control"
+                          id="calories_burned"
+                          name="calories_burned"
+                          value={manualFitnessData.calories_burned}
+                          onChange={handleManualFitnessChange}
+                          min="0"
+                        />
+                      </div>
+                      <div className="col-md-4">
+                        <label htmlFor="steps" className="form-label">Steps</label>
+                        <input
+                          type="number"
+                          className="form-control"
+                          id="steps"
+                          name="steps"
+                          value={manualFitnessData.steps}
+                          onChange={handleManualFitnessChange}
+                          min="0"
+                        />
+                      </div>
+                      <div className="col-md-4">
+                        <label htmlFor="active_minutes" className="form-label">Active Minutes</label>
+                        <input
+                          type="number"
+                          className="form-control"
+                          id="active_minutes"
+                          name="active_minutes"
+                          value={manualFitnessData.active_minutes}
+                          onChange={handleManualFitnessChange}
+                          min="0"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                )}
+                
                 <button 
                   type="submit" 
                   className="btn btn-primary w-100"
@@ -149,6 +243,16 @@ const Dashboard = () => {
               <p className="card-text">
                 <small className="text-muted">Created on {new Date(latestMealPlan.created_at).toLocaleDateString()}</small>
               </p>
+              
+              {/* Activity data */}
+              <div className="activity-data mb-3">
+                <span className="badge bg-primary me-2">
+                  Calories Burned: {latestMealPlan.calories_burned}
+                </span>
+                <span className="badge bg-primary">
+                  Steps: {latestMealPlan.steps}
+                </span>
+              </div>
               
               {/* Basic display of meals */}
               <div className="row">

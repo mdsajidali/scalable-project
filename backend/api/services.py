@@ -27,8 +27,8 @@ def get_weather_data(location):
     except requests.exceptions.RequestException as e:
         logger.error(f"Weather API error: {str(e)}")
         return {
-            'temperature': 11.0,  # Default values if API fails
-            'weather_condition': 'Windy',
+            'temperature': 20.0,  # Default values if API fails
+            'weather_condition': 'Unknown',
             'humidity': 50
         }
 
@@ -39,28 +39,61 @@ def get_fitness_data(user_id, api_id):
     fitness_api_url = settings.FITNESS_API_URL
     fitness_api_key = settings.FITNESS_API_KEY
     
+    # Log the request details for debugging
+    logger.info(f"Attempting to fetch fitness data for user_id: {user_id}, api_id: {api_id}")
+    
+    if not api_id:
+        logger.error(f"No fitness_api_id provided for user {user_id}")
+        return {
+            'calories_burned': 2000,  # Default values if API fails
+            'steps': 5000,
+            'active_minutes': 30,
+            'using_default': True  # Flag to indicate default values are being used
+        }
+    
     url = f"{fitness_api_url}/fitness/{api_id}/daily"
     headers = {
         'Authorization': f'Bearer {fitness_api_key}',
         'Content-Type': 'application/json'
     }
     
+    logger.info(f"Request URL: {url}")
+    logger.info(f"Using API key: {'*' * (len(fitness_api_key) - 4) + fitness_api_key[-4:] if fitness_api_key else 'No API key set'}")
+    
+    if not fitness_api_url or fitness_api_url == 'https://your-classmates-fitness-api.com/api':
+        logger.error("Fitness API URL is not properly configured")
+        return {
+            'calories_burned': 2000,  # Default values if API fails
+            'steps': 5000,
+            'active_minutes': 30,
+            'using_default': True  # Flag to indicate default values are being used
+        }
+    
     try:
         response = requests.get(url, headers=headers)
-        response.raise_for_status()
+        # Log the response status and content for debugging
+        logger.info(f"Fitness API response status: {response.status_code}")
+        
+        if response.status_code != 200:
+            logger.error(f"Fitness API error: {response.text if hasattr(response, 'text') else 'No response text'}")
+            raise requests.exceptions.RequestException(f"API returned {response.status_code}")
+            
         fitness_data = response.json()
+        logger.info(f"Fitness data retrieved successfully: {fitness_data}")
         
         return {
             'calories_burned': fitness_data.get('calories_burned', 0),
             'steps': fitness_data.get('steps', 0),
-            'active_minutes': fitness_data.get('active_minutes', 0)
+            'active_minutes': fitness_data.get('active_minutes', 0),
+            'using_default': False  # Flag to indicate actual values are being used
         }
     except requests.exceptions.RequestException as e:
         logger.error(f"Fitness API error: {str(e)}")
         return {
             'calories_burned': 2000,  # Default values if API fails
             'steps': 5000,
-            'active_minutes': 30
+            'active_minutes': 30,
+            'using_default': True  # Flag to indicate default values are being used
         }
 
 def generate_meal_plan(user_profile, weather_data, fitness_data):

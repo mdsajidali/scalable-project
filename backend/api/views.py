@@ -38,17 +38,34 @@ class MealPlanViewSet(viewsets.ModelViewSet):
                 status=status.HTTP_400_BAD_REQUEST
             )
         
+        # Check if manual fitness data was provided
+        manual_fitness_data = request.data.get('manual_fitness_data')
+        
         # Run synchronously instead of as a Celery task
-        meal_plan_id = generate_meal_plan_task(request.user.id, location)
+        result = generate_meal_plan_task(
+            request.user.id, 
+            location,
+            manual_fitness_data=manual_fitness_data
+        )
+        
+        if not result:
+            return Response({
+                'error': 'Failed to generate meal plan'
+            }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        
+        meal_plan_id = result.get('meal_plan_id')
+        warnings = result.get('warnings', [])
         
         if meal_plan_id:
             return Response({
                 'message': 'Meal plan generated successfully',
-                'meal_plan_id': meal_plan_id
+                'meal_plan_id': meal_plan_id,
+                'warnings': warnings
             }, status=status.HTTP_201_CREATED)
         else:
             return Response({
-                'error': 'Failed to generate meal plan'
+                'error': 'Failed to generate meal plan',
+                'warnings': warnings
             }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
     
     @action(detail=False, methods=['get'])

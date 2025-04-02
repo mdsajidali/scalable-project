@@ -41,4 +41,3 @@ jobs:
     
     - name: Create successful build indicator
       run: echo "CI build completed successfully at $(date)" > frontend/build/build-info.txt
-
