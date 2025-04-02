@@ -1,0 +1,44 @@
+name: Frontend CI Pipeline
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'frontend/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'frontend/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        
+    - name: Install dependencies
+      run: |
+        cd frontend
+        npm ci
+        
+    - name: Run linting and tests
+      run: |
+        cd frontend
+        npm run lint || true
+        npm test -- --passWithNoTests
+        
+    - name: Build
+      run: |
+        cd frontend
+        npm run build
+    
+    - name: Create successful build indicator
+      run: echo "CI build completed successfully at $(date)" > frontend/build/build-info.txt
+
